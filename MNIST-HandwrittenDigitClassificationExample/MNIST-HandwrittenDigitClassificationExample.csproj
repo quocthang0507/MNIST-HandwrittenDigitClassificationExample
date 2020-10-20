@@ -6,4 +6,8 @@
     <RootNamespace>MNIST_HandwrittenDigitClassificationExample</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MNIST-HandwrittenDigitClassificationExampleML.Model\MNIST-HandwrittenDigitClassificationExampleML.Model.csproj" />
+  </ItemGroup>
+
 </Project>

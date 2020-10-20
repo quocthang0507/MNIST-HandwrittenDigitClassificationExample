@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MNIST-HandwrittenDigitClassificationExample", "MNIST-HandwrittenDigitClassificationExample\MNIST-HandwrittenDigitClassificationExample.csproj", "{1BB3C901-C52E-4D8A-959B-D4515D9D1E57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MNIST-HandwrittenDigitClassificationExample", "MNIST-HandwrittenDigitClassificationExample\MNIST-HandwrittenDigitClassificationExample.csproj", "{1BB3C901-C52E-4D8A-959B-D4515D9D1E57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MNIST-HandwrittenDigitClassificationExampleML.Model", "MNIST-HandwrittenDigitClassificationExampleML.Model\MNIST-HandwrittenDigitClassificationExampleML.Model.csproj", "{25C58DEB-A11F-45F2-A008-41C460A155D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MNIST-HandwrittenDigitClassificationExampleML.ConsoleApp", "MNIST-HandwrittenDigitClassificationExampleML.ConsoleApp\MNIST-HandwrittenDigitClassificationExampleML.ConsoleApp.csproj", "{3278FFF5-8191-4B1F-870D-0FAF3AFCE111}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1BB3C901-C52E-4D8A-959B-D4515D9D1E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BB3C901-C52E-4D8A-959B-D4515D9D1E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BB3C901-C52E-4D8A-959B-D4515D9D1E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C58DEB-A11F-45F2-A008-41C460A155D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C58DEB-A11F-45F2-A008-41C460A155D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C58DEB-A11F-45F2-A008-41C460A155D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C58DEB-A11F-45F2-A008-41C460A155D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3278FFF5-8191-4B1F-870D-0FAF3AFCE111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3278FFF5-8191-4B1F-870D-0FAF3AFCE111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3278FFF5-8191-4B1F-870D-0FAF3AFCE111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3278FFF5-8191-4B1F-870D-0FAF3AFCE111}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
